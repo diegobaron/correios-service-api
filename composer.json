@@ -1,0 +1,22 @@
+{
+    "name": "diegobaron/correios-service-api",
+    "description": "Este pacote PHP oferece uma solução robusta e flexível para a integração com os serviços dos Correios do Brasil. Projetado para simplificar e agilizar o processo de comunicação com os sistemas dos Correios, este pacote permite realizar autenticação segura e calcular fretes de forma eficiente.",
+    "autoload": {
+        "psr-4": {
+            "Diegobaron\\CorreiosServiceApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Baron"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
